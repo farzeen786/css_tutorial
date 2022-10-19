@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float Property</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        flex-shrink: initial;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        height: 50vh;
+      }
+      .box1 {
+        height: 134px;
+        width: 244px;
+        background-color: aqua;
+      }
+      .box2 {
+        height: 134px;
+        width: 244px;
+        background-color: red;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">Box 1</div>
+      <div class="box2">Box 2</div>
+      <div class="box2">Box 2b</div>
+      <div class="box2">Box 2c</div>
+    </div>
+  </body>
+</html>
